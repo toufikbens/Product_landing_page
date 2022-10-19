@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+body {
+  font-family: "poppins", sans-serif;
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(54, 91, 112);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+#header-img {
+  padding: 15px;
+  padding-left: 100px;
+  width: 160px;
+  height: 22px;
+}
+#nav-bar {
+  padding: 14px;
+  padding-right: 90px;
+  word-spacing: 40px;
+  font-size: 16px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+#design {
+  background: url("https://i.ibb.co/Sd3JVfc/arian-darvishi-wh-RPf-R-3-M-unsplash.jpg")
+    no-repeat;
+  background-size: 100%;
+  height: 950px;
+  opacity: 0.7;
+}
+#h1 {
+  font-size: 5vw;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#h3 {
+  color: white;
+  font-size: 2.2vw;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.presentation {
+  width: 100%;
+}
+
+#video {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.box1 {
+  flex: 1;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px;
+  margin-left: 40px;
+}
+.box2 {
+  flex: 1;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px;
+}
+.box3 {
+  flex: 1;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px;
+  margin-right: 40px;
+}
+.img {
+  width: 100%;
+  height: 230px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+footer {
+  background-color: rgb(54, 91, 112);
+}
+.text {
+  padding: 60px;
+  padding-right: 40px;
+  text-decoration: none;
+  color: black;
+}
+.text:hover {
+  color: rgb(85, 73, 51);
+}
+.box1:hover {
+  border: 2px solid rgb(54, 91, 112);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box2:hover {
+  border: 2px solid rgb(54, 91, 112);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box3:hover {
+  border: 2px solid rgb(54, 91, 112);
+  border-radius: 10px;
+  cursor: pointer;
+}
+#button {
+  display: block;
+  background-color: rgb(54, 91, 112, 0.8);
+  padding: 15px;
+  margin: 30px auto;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
+#button:hover {
+  background-color: rgb(54, 91, 112);
+  cursor: pointer;
+}
+#footer {
+  display: flex;
+  padding: 20px;
+  color: white;
+  padding-bottom: 40px;
+  margin-top: 80px;
+}
+.box4 {
+  flex: 1;
+}
+.box5 {
+  flex: 1;
+}
+.box6 {
+  flex: 1;
+}
+.box7 {
+  flex: 1;
+}
+input {
+  width: 250px;
+  padding: 7px;
+  border: none;
+}
+input:hover {
+  border: 1px solid black;
+}
+#copyright {
+  font-weight: lighter;
+}
+.text2 {
+  text-decoration: none;
+  color: rgb(223, 215, 215);
+}
+.text2:hover {
+  color: white;
+}
+#submit {
+  width: 70px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 76px;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+.price {
+  float: right;
+  padding: 10px;
+}
